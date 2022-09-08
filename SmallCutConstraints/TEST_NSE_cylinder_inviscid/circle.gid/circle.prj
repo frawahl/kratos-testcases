@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gid version="15.0">
+  <pre>
+    <layer_to_use name="geometry"/>
+    <groups>
+      <group id="1" name="Outlet" color="#ffaaaaff" allowed_types="#f2" allowed_element_types="#7fe"/>
+      <group id="2" name="Inlet" color="#0000ffff" allowed_types="#f2" allowed_element_types="#7fe"/>
+      <group id="3" name="Walls" color="#ff00ffff" allowed_types="#f2" allowed_element_types="#7fe"/>
+      <group id="4" name="Fluid" color="#00ffffff" allowed_types="#34" allowed_element_types="#7fe"/>
+      <group id="5" name="Total" color="#a60021ff" parent_id="2" state="hidden"/>
+      <group id="6" name="Group0" color="#ff00ffff"/>
+      <group id="7" name="Total - 0" color="#996600ff" parent_id="2" state="hidden"/>
+      <group id="8" name="Solid" color="#b33366ff" allowed_types="#32" allowed_element_types="#7fe"/>
+    </groups>
+    <entities_groups>
+      <entities_group name="lines">
+        <vector name="entity_ids" length="5" type="integer">1:4 15</vector>
+        <vector name="entity_num_groups" length="5" type="ushort">1x3 3 1</vector>
+        <vector name="entity_groups" length="7" type="ushort">3 1 3 2 5 7 8</vector>
+      </entities_group>
+      <entities_group name="surfaces">
+        <vector name="entity_ids" length="5" type="integer">1:5</vector>
+        <vector name="entity_num_groups" length="5" type="ushort">1x5</vector>
+        <vector name="entity_groups" length="5" type="ushort">4x5</vector>
+      </entities_group>
+      <entities_group name="nodes">
+        <vector name="entity_ids" length="1257" type="integer">1:1257</vector>
+        <vector name="entity_num_groups" length="1257" type="ushort">1x1257</vector>
+        <vector name="entity_groups" length="1257" type="ushort">8x1257</vector>
+      </entities_group>
+      <entities_group name="elements">
+        <vector name="entity_ids" length="1257" type="integer">1:1257</vector>
+        <vector name="entity_num_groups" length="1257" type="ushort">1x1257</vector>
+        <vector name="entity_groups" length="1257" type="ushort">8x1257</vector>
+      </entities_group>
+    </entities_groups>
+  </pre>
+</gid>

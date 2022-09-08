@@ -1,5 +1,12 @@
 *zip*
 *.post.lst
 *.post.bin
-*.gid
+
 *.mdpa
+
+**/*gid/*/*
+**/*gid/*.msh
+**/*gid/*.mdpa
+**/*gid/FluidMaterials.json
+**/*gid/ProjectParameters.json
+**/*gid/MainKratos.py

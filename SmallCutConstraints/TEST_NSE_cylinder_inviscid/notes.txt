@@ -1,0 +1,19 @@
+
+
+|SMALLEST CUTS| > 1e-7
+
+
+AMGCL does not converge vor DYNAMIC_VISCOSITY below 1e-13
+
+No treatment does not converge (because negative elements are ACTIVE?)
+DistMod'1e-12 same as DistMod'1e-7 (see SMALLEST_CUT)
+
+DistMod'1e-7 gives visually same results as Rubén got ("A modified Finite Element formulation for the imposition of the slip
+boundary condition over embedded volumeless geometries", p.145), 1min:42s
+
+MLSConstraints: visually same result, 7min:46s
+
+LocalConstraints: visually same result, 1min:45s
+
+LocalBCConstraints: visually same result, 1min:46s
+

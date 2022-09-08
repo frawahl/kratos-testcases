@@ -1,0 +1,1982 @@
+ |  /           |
+ ' /   __| _` | __|  _ \   __|
+ . \  |   (   | |   (   |\__ \
+_|\_\_|  \__,_|\__|\___/ ____/
+           Multi-Physics 9.0."Dev"-0-Release
+Compiled with threading support.
+Maximum number of threads: 6.
+Importing    KratosFluidDynamicsApplication 
+Initializing KratosFluidDynamicsApplication...
+NavierStokesEmbeddedMonolithicSolver: Construction of NavierStokesEmbeddedMonolithicSolver finished. 
+NavierStokesEmbeddedMonolithicSolver: Fluid solver variables added correctly. 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/wahl/Dokumente/1_Thesis/SmallCutConstraints/TEST_NSE_cylinder_inviscid/NormalMesh/None_explodes/embedded_cylinder.mdpa 
+ModelPartIO:   [Reading Nodes    : 102029 nodes read]
+ModelPartIO:   [Reading Elements : 203496 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 560 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 612792]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -FluidModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 4
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 102029
+        Number of Properties  : 1
+        Number of Elements    : 203496
+        Number of Conditions  : 560
+        Number of Constraints : 0
+
+    -AutomaticInlet2D_Inlet- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 81
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 80
+            Number of Constraints : 0
+    -FluidParts_Fluid- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 102029
+            Number of Properties  : 0
+            Number of Elements    : 203496
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -Outlet2D_Outlet- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 81
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 80
+            Number of Constraints : 0
+    -Slip2D- model part
+        Number of tables : 0
+        Number of sub model parts : 1
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 402
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 400
+            Number of Constraints : 0
+        -Slip2D_Walls- model part
+            Number of tables : 0
+            Number of sub model parts : 0
+
+            Number of Geometries  : 0
+            Mesh 0 :
+                Number of Nodes       : 402
+                Number of Properties  : 0
+                Number of Elements    : 0
+                Number of Conditions  : 400
+                Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+Read materials: Started
+Read materials: Finished
+[WARNING] No 'SOUND_VELOCITY' value found in Properties 1. Setting default value 1000000000000.0: 
+[WARNING] No 'SOUND_VELOCITY' value found in Properties 1. Setting default value 1000000000000.0: 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 280 inverted conditions.
+NavierStokesEmbeddedMonolithicSolver: Model reading finished. 
+Navier Stokes Embedded Solver: Distance function taken from the .mdpa input file. 
+NavierStokesEmbeddedMonolithicSolver: Fluid solver DOFs added correctly. 
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+NavierStokesEmbeddedMonolithicSolver: Solver initialization finished. 
+Fluid Dynamics Analysis: Analysis -START-  
+Fluid Dynamics Analysis: STEP:  1 
+Fluid Dynamics Analysis: TIME:  0.01 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/ref_pt.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_1.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_2.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_3.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_4.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_5.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_6.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_7.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_8.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_9.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_10.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_11.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_12.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_13.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_14.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_15.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_16.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_17.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_18.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_19.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_20.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_21.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_22.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_23.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_24.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_25.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_26.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_27.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_28.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_29.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_30.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_31.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_32.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_33.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_34.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_35.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_36.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_37.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_38.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_39.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_40.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_41.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_42.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_43.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_44.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_45.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_46.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_47.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_48.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_49.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_50.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_51.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_52.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_53.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_54.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_55.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_56.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_57.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_58.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_59.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_60.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_61.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_62.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_63.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_64.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_65.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_66.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_67.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_68.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_69.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_70.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_71.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_72.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_73.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_74.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_75.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_76.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_77.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_78.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_79.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_80.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_81.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_82.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_83.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_84.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_85.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_86.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_87.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_88.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_89.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_90.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_91.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_92.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_93.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_94.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_95.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_96.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_97.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_98.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_99.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_100.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_101.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_102.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_103.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_104.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_105.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_106.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_107.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_108.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_109.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_110.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_111.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_112.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_113.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_114.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_115.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_116.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_117.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_118.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_119.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_120.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_121.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_122.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_123.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_124.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_125.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_126.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_127.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_128.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_129.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_130.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_131.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_132.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_133.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_134.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_135.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_136.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_137.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_138.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_139.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_140.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_141.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_142.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_143.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_144.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_145.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_146.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_147.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_148.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_149.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_150.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_151.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_152.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_153.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_154.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_155.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_156.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_157.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_158.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_159.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_160.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_161.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_162.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_163.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_164.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_165.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_166.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_167.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_168.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_169.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_170.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_171.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_172.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_173.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_174.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_175.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_176.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_177.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_178.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_179.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_180.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_181.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_182.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_183.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_184.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_185.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_186.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_187.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_188.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_189.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_190.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_191.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_192.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_193.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_194.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_195.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_196.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_197.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_198.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_199.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_200.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_201.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_202.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_203.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_204.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_205.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_206.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_207.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_208.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_209.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_210.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_211.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_212.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_213.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_214.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_215.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_216.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_217.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_218.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_219.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_220.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_221.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_222.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_223.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_224.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_225.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_226.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_227.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_228.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_229.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_230.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_231.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_232.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_233.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_234.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_235.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_236.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_237.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_238.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_239.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_240.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_241.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_242.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_243.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_244.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_245.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_246.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_247.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_248.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_249.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_250.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_251.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_252.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_253.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_254.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_255.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_256.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_257.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_258.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_259.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_260.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_261.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_262.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_263.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_264.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_265.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_266.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_267.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_268.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_269.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_270.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_271.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_272.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_273.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_274.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_275.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_276.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_277.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_278.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_279.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_280.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_281.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_282.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_283.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_284.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_285.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_286.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_287.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_288.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_289.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_290.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_291.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_292.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_293.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_294.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_295.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_296.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_297.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_298.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_299.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_300.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_301.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_302.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_303.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_304.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_305.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_306.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_307.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_308.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_309.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_310.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_311.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_312.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_313.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_314.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_315.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_316.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_317.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_318.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_319.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_320.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_321.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_322.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_323.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_324.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_325.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_326.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_327.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_328.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_329.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_330.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_331.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_332.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_333.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_334.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_335.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_336.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_337.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_338.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_339.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_340.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_341.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_342.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_343.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_344.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_345.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_346.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_347.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_348.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_349.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_350.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_351.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_352.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_353.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_354.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_355.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_356.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_357.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_358.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_359.dat 
+TimeBasedAsciiFileWriterUtility: File output buffer size set to 1 
+for TimeBasedAsciiFileWriterUtility output file cfd_output/cylinder/cylinder+1e-5_360.dat 
+Fluid Dynamics Analysis: STEP:  2 
+Fluid Dynamics Analysis: TIME:  0.02 
+ResidualBasedNewtonRaphsonStrategy: Setup Dofs Time: 0.22553
+ResidualBasedNewtonRaphsonStrategy: Setup System Time: 0.00137364
+ResidualBasedNewtonRaphsonStrategy: System Matrix Resize Time: 0.507207
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 0.734174
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139647
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.901508
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 1; exp.ratio = 0.0001 abs = 6.00734 exp.abs = 1e-06
+ PRESSURE : ratio = 1; exp.ratio = 0.0001 abs = 3.29758 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.156755
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.385627
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 3410.26; exp.ratio = 0.0001 abs = 6.00733 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000396979; exp.ratio = 0.0001 abs = 0.00130894 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143896
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.633711
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.654863; exp.ratio = 0.0001 abs = 0.00153023 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000174503; exp.ratio = 0.0001 abs = 0.000575384 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141696
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.589994
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.0134184; exp.ratio = 0.0001 abs = 3.13774e-05 exp.abs = 1e-06
+ PRESSURE : ratio = 3.94767e-05; exp.ratio = 0.0001 abs = 0.000130165 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139755
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.610143
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00072445; exp.ratio = 0.0001 abs = 1.69324e-06 exp.abs = 1e-06
+ PRESSURE : ratio = 8.87742e-08; exp.ratio = 0.0001 abs = 2.92712e-07 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139324
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.627207
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 1.86456e-05; exp.ratio = 0.0001 abs = 4.35796e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 4.48348e-08; exp.ratio = 0.0001 abs = 1.47833e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 6 / 10 iterations
+Fluid Dynamics Analysis: STEP:  3 
+Fluid Dynamics Analysis: TIME:  0.03 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.188e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142324
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.62416
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 1.11673; exp.ratio = 0.0001 abs = 0.0020492 exp.abs = 1e-06
+ PRESSURE : ratio = 3.99855; exp.ratio = 0.0001 abs = 4.39689 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146625
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.590003
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.011045; exp.ratio = 0.0001 abs = 2.02611e-05 exp.abs = 1e-06
+ PRESSURE : ratio = 8.20795e-05; exp.ratio = 0.0001 abs = 9.02545e-05 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141128
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.594819
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000223433; exp.ratio = 0.0001 abs = 4.09842e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 2.0161e-07; exp.ratio = 0.0001 abs = 2.2169e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 3 / 10 iterations
+Fluid Dynamics Analysis: STEP:  4 
+Fluid Dynamics Analysis: TIME:  0.04 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 6.33e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141502
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.647693
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.289365; exp.ratio = 0.0001 abs = 0.000509761 exp.abs = 1e-06
+ PRESSURE : ratio = 919.386; exp.ratio = 0.0001 abs = 1.09921 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145265
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.714394
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000101461; exp.ratio = 0.0001 abs = 1.7874e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00621862; exp.ratio = 0.0001 abs = 7.44692e-06 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143119
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.751019
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 5.40973e-06; exp.ratio = 0.0001 abs = 9.53015e-09 exp.abs = 1e-06
+ PRESSURE : ratio = 3.59683e-05; exp.ratio = 0.0001 abs = 4.30731e-08 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 3 / 10 iterations
+Fluid Dynamics Analysis: STEP:  5 
+Fluid Dynamics Analysis: TIME:  0.05 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.242e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145478
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.463995
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00034567; exp.ratio = 0.0001 abs = 6.08939e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.0411794; exp.ratio = 0.0001 abs = 4.9261e-05 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.144198
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.679221
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 1.91361e-05; exp.ratio = 0.0001 abs = 3.37106e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 7.70198e-05; exp.ratio = 0.0001 abs = 9.21317e-08 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 2 / 10 iterations
+Fluid Dynamics Analysis: STEP:  6 
+Fluid Dynamics Analysis: TIME:  0.060000000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.751e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.147856
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.490885
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000274383; exp.ratio = 0.0001 abs = 4.83348e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00370901; exp.ratio = 0.0001 abs = 4.4368e-06 exp.abs = 1e-06
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14907
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.658025
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 2.18707e-05; exp.ratio = 0.0001 abs = 3.8527e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 3.53433e-05; exp.ratio = 0.0001 abs = 4.22779e-08 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 2 / 10 iterations
+Fluid Dynamics Analysis: STEP:  7 
+Fluid Dynamics Analysis: TIME:  0.07 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.631e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145554
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.483658
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000269535; exp.ratio = 0.0001 abs = 4.74799e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000671301; exp.ratio = 0.0001 abs = 8.03e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  8 
+Fluid Dynamics Analysis: TIME:  0.08 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.879e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.229654
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.469805
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000275354; exp.ratio = 0.0001 abs = 4.85041e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000207806; exp.ratio = 0.0001 abs = 2.48565e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  9 
+Fluid Dynamics Analysis: TIME:  0.09 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.46e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141026
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.47662
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000292532; exp.ratio = 0.0001 abs = 5.15292e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00012217; exp.ratio = 0.0001 abs = 1.46128e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  10 
+Fluid Dynamics Analysis: TIME:  0.09999999999999999 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.355e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.154177
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.468411
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000315876; exp.ratio = 0.0001 abs = 5.56405e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000121072; exp.ratio = 0.0001 abs = 1.44808e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  11 
+Fluid Dynamics Analysis: TIME:  0.10999999999999999 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.791e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.15211
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.445304
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000343349; exp.ratio = 0.0001 abs = 6.04791e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000137378; exp.ratio = 0.0001 abs = 1.64306e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  12 
+Fluid Dynamics Analysis: TIME:  0.11999999999999998 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.031e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143202
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.458108
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00037372; exp.ratio = 0.0001 abs = 6.58279e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000159446; exp.ratio = 0.0001 abs = 1.9069e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  13 
+Fluid Dynamics Analysis: TIME:  0.12999999999999998 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.815e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.156948
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.462024
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000405891; exp.ratio = 0.0001 abs = 7.14939e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000185037; exp.ratio = 0.0001 abs = 2.21287e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  14 
+Fluid Dynamics Analysis: TIME:  0.13999999999999999 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 6.534e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14586
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.455507
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000438606; exp.ratio = 0.0001 abs = 7.72556e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000213342; exp.ratio = 0.0001 abs = 2.55126e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  15 
+Fluid Dynamics Analysis: TIME:  0.15 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.607e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145162
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.463492
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000470432; exp.ratio = 0.0001 abs = 8.28605e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000242663; exp.ratio = 0.0001 abs = 2.90176e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  16 
+Fluid Dynamics Analysis: TIME:  0.16 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.965e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.152781
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.460481
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000499806; exp.ratio = 0.0001 abs = 8.80335e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000271656; exp.ratio = 0.0001 abs = 3.24829e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  17 
+Fluid Dynamics Analysis: TIME:  0.17 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.609e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140314
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.460915
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000525177; exp.ratio = 0.0001 abs = 9.25016e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000298465; exp.ratio = 0.0001 abs = 3.56869e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  18 
+Fluid Dynamics Analysis: TIME:  0.18000000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.57e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.149619
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.459454
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000545151; exp.ratio = 0.0001 abs = 9.60189e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000321437; exp.ratio = 0.0001 abs = 3.84315e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  19 
+Fluid Dynamics Analysis: TIME:  0.19000000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.053e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14301
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.457817
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000558634; exp.ratio = 0.0001 abs = 9.83929e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000339077; exp.ratio = 0.0001 abs = 4.05385e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  20 
+Fluid Dynamics Analysis: TIME:  0.20000000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.301e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143804
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.453674
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000564952; exp.ratio = 0.0001 abs = 9.9505e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000350353; exp.ratio = 0.0001 abs = 4.18843e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  21 
+Fluid Dynamics Analysis: TIME:  0.21000000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.742e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145832
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.475133
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000563912; exp.ratio = 0.0001 abs = 9.9321e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000354745; exp.ratio = 0.0001 abs = 4.24071e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  22 
+Fluid Dynamics Analysis: TIME:  0.22000000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.621e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.148416
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.588178
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000555795; exp.ratio = 0.0001 abs = 9.78908e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000352305; exp.ratio = 0.0001 abs = 4.21131e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  23 
+Fluid Dynamics Analysis: TIME:  0.23000000000000007 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.867e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.147343
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.522703
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000541266; exp.ratio = 0.0001 abs = 9.53311e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000343789; exp.ratio = 0.0001 abs = 4.10929e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  24 
+Fluid Dynamics Analysis: TIME:  0.24000000000000007 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.484e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140434
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.502712
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000521233; exp.ratio = 0.0001 abs = 9.18022e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000329973; exp.ratio = 0.0001 abs = 3.94394e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  25 
+Fluid Dynamics Analysis: TIME:  0.25000000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.907e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139508
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.494983
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000496702; exp.ratio = 0.0001 abs = 8.74811e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000312306; exp.ratio = 0.0001 abs = 3.73259e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  26 
+Fluid Dynamics Analysis: TIME:  0.26000000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.596e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.13975
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.481978
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000468644; exp.ratio = 0.0001 abs = 8.25388e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.0002922; exp.ratio = 0.0001 abs = 3.49211e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  27 
+Fluid Dynamics Analysis: TIME:  0.2700000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.501e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143237
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.479928
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000437939; exp.ratio = 0.0001 abs = 7.71304e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000270833; exp.ratio = 0.0001 abs = 3.2366e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  28 
+Fluid Dynamics Analysis: TIME:  0.2800000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.953e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140663
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.453715
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000405384; exp.ratio = 0.0001 abs = 7.13963e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000249551; exp.ratio = 0.0001 abs = 2.98212e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  29 
+Fluid Dynamics Analysis: TIME:  0.2900000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.045e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143421
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.478269
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000371742; exp.ratio = 0.0001 abs = 6.54707e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000229265; exp.ratio = 0.0001 abs = 2.73958e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  30 
+Fluid Dynamics Analysis: TIME:  0.3000000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.582e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145075
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.492329
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000337795; exp.ratio = 0.0001 abs = 5.94916e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000210819; exp.ratio = 0.0001 abs = 2.51905e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  31 
+Fluid Dynamics Analysis: TIME:  0.3100000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.001e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141613
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.458156
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000304365; exp.ratio = 0.0001 abs = 5.36036e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000194578; exp.ratio = 0.0001 abs = 2.3249e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  32 
+Fluid Dynamics Analysis: TIME:  0.3200000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.706e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142831
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.455854
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000272276; exp.ratio = 0.0001 abs = 4.79519e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000180834; exp.ratio = 0.0001 abs = 2.1606e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  33 
+Fluid Dynamics Analysis: TIME:  0.3300000000000001 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.963e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139268
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.458287
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00024229; exp.ratio = 0.0001 abs = 4.26706e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00016959; exp.ratio = 0.0001 abs = 2.02618e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  34 
+Fluid Dynamics Analysis: TIME:  0.34000000000000014 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.366e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142391
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.430504
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00021502; exp.ratio = 0.0001 abs = 3.78678e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000160687; exp.ratio = 0.0001 abs = 1.91975e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  35 
+Fluid Dynamics Analysis: TIME:  0.35000000000000014 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.485e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142695
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.443283
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000190866; exp.ratio = 0.0001 abs = 3.36137e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000153866; exp.ratio = 0.0001 abs = 1.83821e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  36 
+Fluid Dynamics Analysis: TIME:  0.36000000000000015 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.796e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.144037
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.459579
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000169983; exp.ratio = 0.0001 abs = 2.99358e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000149096; exp.ratio = 0.0001 abs = 1.78116e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  37 
+Fluid Dynamics Analysis: TIME:  0.37000000000000016 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.041e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139294
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.448245
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000152307; exp.ratio = 0.0001 abs = 2.68227e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000145785; exp.ratio = 0.0001 abs = 1.74156e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  38 
+Fluid Dynamics Analysis: TIME:  0.38000000000000017 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.535e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14199
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.439603
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000137603; exp.ratio = 0.0001 abs = 2.42331e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143815; exp.ratio = 0.0001 abs = 1.71798e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  39 
+Fluid Dynamics Analysis: TIME:  0.3900000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.175e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.138624
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.436604
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00012554; exp.ratio = 0.0001 abs = 2.21085e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000142907; exp.ratio = 0.0001 abs = 1.7071e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  40 
+Fluid Dynamics Analysis: TIME:  0.4000000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.829e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143647
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.455829
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000115745; exp.ratio = 0.0001 abs = 2.03835e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000142607; exp.ratio = 0.0001 abs = 1.70348e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  41 
+Fluid Dynamics Analysis: TIME:  0.4100000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.572e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145947
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.456352
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.00010785; exp.ratio = 0.0001 abs = 1.89931e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000142783; exp.ratio = 0.0001 abs = 1.70554e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  42 
+Fluid Dynamics Analysis: TIME:  0.4200000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.814e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146002
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.488125
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 0.000101505; exp.ratio = 0.0001 abs = 1.78755e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143199; exp.ratio = 0.0001 abs = 1.71048e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  43 
+Fluid Dynamics Analysis: TIME:  0.4300000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.331e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139203
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.50038
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 9.63915e-05; exp.ratio = 0.0001 abs = 1.69749e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143516; exp.ratio = 0.0001 abs = 1.71424e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  44 
+Fluid Dynamics Analysis: TIME:  0.4400000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.222e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142661
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.548022
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 9.22282e-05; exp.ratio = 0.0001 abs = 1.62417e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143964; exp.ratio = 0.0001 abs = 1.71956e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  45 
+Fluid Dynamics Analysis: TIME:  0.45000000000000023 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.596e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143646
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.568219
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 8.87745e-05; exp.ratio = 0.0001 abs = 1.56334e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143807; exp.ratio = 0.0001 abs = 1.71765e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  46 
+Fluid Dynamics Analysis: TIME:  0.46000000000000024 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.365e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146162
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.703662
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 8.58188e-05; exp.ratio = 0.0001 abs = 1.51129e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143793; exp.ratio = 0.0001 abs = 1.71746e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  47 
+Fluid Dynamics Analysis: TIME:  0.47000000000000025 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.828e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.138779
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.597957
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 8.31722e-05; exp.ratio = 0.0001 abs = 1.46468e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000143379; exp.ratio = 0.0001 abs = 1.71251e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  48 
+Fluid Dynamics Analysis: TIME:  0.48000000000000026 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.289e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140792
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.565606
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 8.06776e-05; exp.ratio = 0.0001 abs = 1.42074e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000142635; exp.ratio = 0.0001 abs = 1.7036e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  49 
+Fluid Dynamics Analysis: TIME:  0.49000000000000027 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.359e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145375
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.571335
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 7.82048e-05; exp.ratio = 0.0001 abs = 1.37719e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000141751; exp.ratio = 0.0001 abs = 1.69302e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  50 
+Fluid Dynamics Analysis: TIME:  0.5000000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.941e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.151103
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.545872
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 7.56626e-05; exp.ratio = 0.0001 abs = 1.33242e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000140445; exp.ratio = 0.0001 abs = 1.6774e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  51 
+Fluid Dynamics Analysis: TIME:  0.5100000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.72e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141515
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.545554
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 7.3e-05; exp.ratio = 0.0001 abs = 1.28553e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000139093; exp.ratio = 0.0001 abs = 1.66123e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  52 
+Fluid Dynamics Analysis: TIME:  0.5200000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.025e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14017
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.542387
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 7.02117e-05; exp.ratio = 0.0001 abs = 1.23642e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000137459; exp.ratio = 0.0001 abs = 1.64171e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  53 
+Fluid Dynamics Analysis: TIME:  0.5300000000000002 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.792e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.147386
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.559553
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 6.73369e-05; exp.ratio = 0.0001 abs = 1.18579e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00013568; exp.ratio = 0.0001 abs = 1.62046e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  54 
+Fluid Dynamics Analysis: TIME:  0.5400000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.08e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.1402
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.555625
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 6.44534e-05; exp.ratio = 0.0001 abs = 1.13501e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000133781; exp.ratio = 0.0001 abs = 1.59776e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  55 
+Fluid Dynamics Analysis: TIME:  0.5500000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.666e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14027
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.552151
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 6.16582e-05; exp.ratio = 0.0001 abs = 1.08579e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000131812; exp.ratio = 0.0001 abs = 1.57423e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  56 
+Fluid Dynamics Analysis: TIME:  0.5600000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.829e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140479
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.554617
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 5.90408e-05; exp.ratio = 0.0001 abs = 1.0397e-07 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000129819; exp.ratio = 0.0001 abs = 1.55042e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  57 
+Fluid Dynamics Analysis: TIME:  0.5700000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.385e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.137907
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.560167
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 5.6659e-05; exp.ratio = 0.0001 abs = 9.97751e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000127845; exp.ratio = 0.0001 abs = 1.52684e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  58 
+Fluid Dynamics Analysis: TIME:  0.5800000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.553e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.168826
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.542373
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 5.45328e-05; exp.ratio = 0.0001 abs = 9.60308e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000125926; exp.ratio = 0.0001 abs = 1.50392e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  59 
+Fluid Dynamics Analysis: TIME:  0.5900000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.228e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140904
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.523851
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 5.2649e-05; exp.ratio = 0.0001 abs = 9.27133e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000124117; exp.ratio = 0.0001 abs = 1.48231e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  60 
+Fluid Dynamics Analysis: TIME:  0.6000000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.663e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142521
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.522864
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 5.09859e-05; exp.ratio = 0.0001 abs = 8.97844e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000122295; exp.ratio = 0.0001 abs = 1.46054e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  61 
+Fluid Dynamics Analysis: TIME:  0.6100000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.74e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141209
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.529454
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.95216e-05; exp.ratio = 0.0001 abs = 8.72059e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000120639; exp.ratio = 0.0001 abs = 1.44076e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  62 
+Fluid Dynamics Analysis: TIME:  0.6200000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.259e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.13873
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.522942
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.82397e-05; exp.ratio = 0.0001 abs = 8.49483e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000119075; exp.ratio = 0.0001 abs = 1.42207e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  63 
+Fluid Dynamics Analysis: TIME:  0.6300000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.392e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.145732
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.52407
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.71257e-05; exp.ratio = 0.0001 abs = 8.29866e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00011762; exp.ratio = 0.0001 abs = 1.40469e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  64 
+Fluid Dynamics Analysis: TIME:  0.6400000000000003 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.54e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143002
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.529838
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.61647e-05; exp.ratio = 0.0001 abs = 8.12943e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000116279; exp.ratio = 0.0001 abs = 1.38868e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  65 
+Fluid Dynamics Analysis: TIME:  0.6500000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.913e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.1464
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.523947
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.53399e-05; exp.ratio = 0.0001 abs = 7.98417e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000115056; exp.ratio = 0.0001 abs = 1.37406e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  66 
+Fluid Dynamics Analysis: TIME:  0.6600000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.505e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14409
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.522203
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.46336e-05; exp.ratio = 0.0001 abs = 7.85979e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000113951; exp.ratio = 0.0001 abs = 1.36086e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  67 
+Fluid Dynamics Analysis: TIME:  0.6700000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.727e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146653
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.529003
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.40292e-05; exp.ratio = 0.0001 abs = 7.75334e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000112963; exp.ratio = 0.0001 abs = 1.34907e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  68 
+Fluid Dynamics Analysis: TIME:  0.6800000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.905e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.140746
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.527845
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.3512e-05; exp.ratio = 0.0001 abs = 7.66226e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000112089; exp.ratio = 0.0001 abs = 1.33862e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  69 
+Fluid Dynamics Analysis: TIME:  0.6900000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.35e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.13998
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.530454
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.30699e-05; exp.ratio = 0.0001 abs = 7.58441e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000111321; exp.ratio = 0.0001 abs = 1.32945e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  70 
+Fluid Dynamics Analysis: TIME:  0.7000000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.22e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14073
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.528652
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.26933e-05; exp.ratio = 0.0001 abs = 7.51809e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00011065; exp.ratio = 0.0001 abs = 1.32144e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  71 
+Fluid Dynamics Analysis: TIME:  0.7100000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.139183
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.529271
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.23745e-05; exp.ratio = 0.0001 abs = 7.46195e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000110067; exp.ratio = 0.0001 abs = 1.31447e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  72 
+Fluid Dynamics Analysis: TIME:  0.7200000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.176e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.138262
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.52289
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.2107e-05; exp.ratio = 0.0001 abs = 7.41483e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00010956; exp.ratio = 0.0001 abs = 1.30841e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  73 
+Fluid Dynamics Analysis: TIME:  0.7300000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.385e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142929
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.523305
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.1884e-05; exp.ratio = 0.0001 abs = 7.37556e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000109117; exp.ratio = 0.0001 abs = 1.30312e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  74 
+Fluid Dynamics Analysis: TIME:  0.7400000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.273e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.196071
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.536145
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.16984e-05; exp.ratio = 0.0001 abs = 7.34288e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000108726; exp.ratio = 0.0001 abs = 1.29845e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  75 
+Fluid Dynamics Analysis: TIME:  0.7500000000000004 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.404e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.151262
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.52353
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.15425e-05; exp.ratio = 0.0001 abs = 7.31542e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000108377; exp.ratio = 0.0001 abs = 1.29428e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  76 
+Fluid Dynamics Analysis: TIME:  0.7600000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 3.461e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146623
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.554492
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.14084e-05; exp.ratio = 0.0001 abs = 7.29181e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.00010806; exp.ratio = 0.0001 abs = 1.29049e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  77 
+Fluid Dynamics Analysis: TIME:  0.7700000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.232e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141789
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.528543
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.12895e-05; exp.ratio = 0.0001 abs = 7.27086e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000107765; exp.ratio = 0.0001 abs = 1.28697e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  78 
+Fluid Dynamics Analysis: TIME:  0.7800000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.446e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.138735
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.526258
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.11808e-05; exp.ratio = 0.0001 abs = 7.25173e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000107487; exp.ratio = 0.0001 abs = 1.28365e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  79 
+Fluid Dynamics Analysis: TIME:  0.7900000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.481e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.141081
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.531181
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.10806e-05; exp.ratio = 0.0001 abs = 7.23409e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000107218; exp.ratio = 0.0001 abs = 1.28044e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  80 
+Fluid Dynamics Analysis: TIME:  0.8000000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.453e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.144139
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.530894
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.09908e-05; exp.ratio = 0.0001 abs = 7.21826e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000106957; exp.ratio = 0.0001 abs = 1.27732e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  81 
+Fluid Dynamics Analysis: TIME:  0.8100000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.87e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.1422
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.524871
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.09163e-05; exp.ratio = 0.0001 abs = 7.20515e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000106699; exp.ratio = 0.0001 abs = 1.27424e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  82 
+Fluid Dynamics Analysis: TIME:  0.8200000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.712e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14505
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.529405
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.08651e-05; exp.ratio = 0.0001 abs = 7.19614e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000106444; exp.ratio = 0.0001 abs = 1.2712e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  83 
+Fluid Dynamics Analysis: TIME:  0.8300000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.55e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146027
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.545139
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.08462e-05; exp.ratio = 0.0001 abs = 7.19281e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000106191; exp.ratio = 0.0001 abs = 1.26818e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  84 
+Fluid Dynamics Analysis: TIME:  0.8400000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.002e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.142629
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.572683
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.08675e-05; exp.ratio = 0.0001 abs = 7.19656e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000105941; exp.ratio = 0.0001 abs = 1.2652e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  85 
+Fluid Dynamics Analysis: TIME:  0.8500000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.334e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.147442
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.542474
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.09338e-05; exp.ratio = 0.0001 abs = 7.20823e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000105695; exp.ratio = 0.0001 abs = 1.26225e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  86 
+Fluid Dynamics Analysis: TIME:  0.8600000000000005 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.217e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.146522
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.578751
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.10447e-05; exp.ratio = 0.0001 abs = 7.22777e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000105452; exp.ratio = 0.0001 abs = 1.25936e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  87 
+Fluid Dynamics Analysis: TIME:  0.8700000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 6.672e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.149311
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.594081
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.11939e-05; exp.ratio = 0.0001 abs = 7.25404e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000105215; exp.ratio = 0.0001 abs = 1.25652e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  88 
+Fluid Dynamics Analysis: TIME:  0.8800000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 6.255e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.23558
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.63943
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.13692e-05; exp.ratio = 0.0001 abs = 7.28491e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000104984; exp.ratio = 0.0001 abs = 1.25376e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  89 
+Fluid Dynamics Analysis: TIME:  0.8900000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 7.933e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.152867
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.611619
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.15547e-05; exp.ratio = 0.0001 abs = 7.31757e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000104759; exp.ratio = 0.0001 abs = 1.25109e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  90 
+Fluid Dynamics Analysis: TIME:  0.9000000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.921e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.160302
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.591518
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.17331e-05; exp.ratio = 0.0001 abs = 7.34899e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000104542; exp.ratio = 0.0001 abs = 1.2485e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  91 
+Fluid Dynamics Analysis: TIME:  0.9100000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.03e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.154954
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.612009
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.18893e-05; exp.ratio = 0.0001 abs = 7.37651e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000104334; exp.ratio = 0.0001 abs = 1.24601e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  92 
+Fluid Dynamics Analysis: TIME:  0.9200000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 7.779e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.176014
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.627109
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.20131e-05; exp.ratio = 0.0001 abs = 7.39831e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000104134; exp.ratio = 0.0001 abs = 1.24362e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  93 
+Fluid Dynamics Analysis: TIME:  0.9300000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.529e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.147653
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.635264
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.21013e-05; exp.ratio = 0.0001 abs = 7.41383e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103943; exp.ratio = 0.0001 abs = 1.24134e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  94 
+Fluid Dynamics Analysis: TIME:  0.9400000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 6.971e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.16337
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.553474
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.21581e-05; exp.ratio = 0.0001 abs = 7.42384e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103761; exp.ratio = 0.0001 abs = 1.23917e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  95 
+Fluid Dynamics Analysis: TIME:  0.9500000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.392e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14471
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.550535
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.21949e-05; exp.ratio = 0.0001 abs = 7.43032e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103589; exp.ratio = 0.0001 abs = 1.23713e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBa
+ DURATION: 0 h, 1 min, 40 sec
+
+
+ POSITIVE AND NEGATIVE MINIMAL DISTANCES: -7.408975837286391e-07, 3.551310540778063e-07
+
+sedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  96 
+Fluid Dynamics Analysis: TIME:  0.9600000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.693e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.162238
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.606392
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.22278e-05; exp.ratio = 0.0001 abs = 7.43611e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103428; exp.ratio = 0.0001 abs = 1.2352e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  97 
+Fluid Dynamics Analysis: TIME:  0.9700000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.523e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.151885
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.537622
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.22744e-05; exp.ratio = 0.0001 abs = 7.44432e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103277; exp.ratio = 0.0001 abs = 1.2334e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  98 
+Fluid Dynamics Analysis: TIME:  0.9800000000000006 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.451e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.143797
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.528461
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.23505e-05; exp.ratio = 0.0001 abs = 7.45772e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103137; exp.ratio = 0.0001 abs = 1.23173e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  99 
+Fluid Dynamics Analysis: TIME:  0.9900000000000007 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 4.488e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.138905
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.52861
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.24666e-05; exp.ratio = 0.0001 abs = 7.47818e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000103007; exp.ratio = 0.0001 abs = 1.23017e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: STEP:  100 
+Fluid Dynamics Analysis: TIME:  1.0000000000000007 
+ResidualBasedNewtonRaphsonStrategy: System Construction Time: 5.344e-06
+NavierStokesEmbeddedMonolithicSolver: Applied Distance Modification using 1e-12. 
+ResidualBasedBlockBuilderAndSolver: Build time: 0.14111
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.517471
+CONVERGENCE CHECK:
+ VELOCITY : ratio = 4.26261e-05; exp.ratio = 0.0001 abs = 7.50627e-08 exp.abs = 1e-06
+ PRESSURE : ratio = 0.000102887; exp.ratio = 0.0001 abs = 1.22875e-07 exp.abs = 1e-06
+*** CONVERGENCE IS ACHIEVED ***
+ResidualBasedNewtonRaphsonStrategy: Convergence achieved after 1 / 10 iterations
+Fluid Dynamics Analysis: Analysis -END-  
+BuilderAndSolver: Clear Function called
+BuilderAndSolver: Clear Function called

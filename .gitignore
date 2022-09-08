@@ -1,3 +1,5 @@
 *zip*
 *.post.lst
 *.post.bin
+*.gid
+*.mdpa

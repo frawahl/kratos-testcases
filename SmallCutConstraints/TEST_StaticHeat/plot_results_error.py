@@ -124,6 +124,9 @@ x_label = r'$h$'
 y_label = r'$\left\vert T - T_{ex} \right\vert_{\Tilde{\Omega}}$'
 plt.xlabel(x_label, fontsize = math_label_fontsize)
 plt.ylabel(y_label, fontsize = math_label_fontsize)
+ax.set_xticks(h_vect)
+ax.set_xticklabels([r'${}$'.format(h) for h in h_vect])
+ax.tick_params(which='minor', length=0)
 
 # invert x axis
 plt.gca().invert_xaxis()
@@ -136,7 +139,9 @@ plt.gca().invert_xaxis()
 # ax.set_xticks(x_ticks)
 # ax.set_xticklabels(x_labels,fontsize=14)
 
+plt.xticks(fontsize = 14)
 plt.yticks(fontsize = 14)
+ax.tick_params(axis="both", which="both", direction="in")
 
 # Set brackground grid
 # plt.grid()

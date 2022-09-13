@@ -2,7 +2,6 @@
 
 |SMALLEST CUTS| > 1e-7
 
-
 AMGCL does not converge vor DYNAMIC_VISCOSITY below 1e-13
 
 No treatment does not converge (because negative elements are ACTIVE?)
@@ -17,3 +16,8 @@ LocalConstraints: visually same result, 1min:45s
 
 LocalBCConstraints: visually same result, 1min:46s
 
+
+
+|SMALLEST CUTS| < 1e-11
+
+no instabilities, visually all the same
